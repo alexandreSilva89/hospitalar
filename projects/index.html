@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<title>Documento html</title>
+	<link rel="stylesheet" href="estilo.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="paciente.hmtl">Pacientes</a></li>
+				<li><a href="medicamento.html">Medicamentos</a></li>
+				<li><a href="materiais.html">Materiais</a></li>
+				<li><a href="cadastro.html">Ajuda</a></li>
+				<li><a href="usuarios.html">Usuários</a></li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+		<div id="corpo">
+			<form>
+
+				<fieldset id="fsPaciente"><legend>Dados do paciente</legend>
+					<table>
+					<tr>
+						<td class="tblEsquerdo"><label for="txtNome">Nome</label></td>
+						<td class="tblDireito"><input type="text" name="txtNome" id="txtNome" size="120" maxlength="120"><br/></td>
+					</tr>
+					<tr>
+						<td class="tblEsquerdo"><label for="nascimento">Data de nascimento</label></td>
+						<td class="tblDireito"><input type="date" name="nascimento" id="nascimento"><br/></td>
+					</tr>
+					<tr>
+						<td class="tblEsquerdo"><label for="peso">Peso</label></td>
+						<td class="tblDireito"><input type="number" name="peso" id="peso"><br/></td>
+					</tr>
+					<tr>
+						<td class="tblEsquerdo"><label for="altura">Altura</label></td>
+						<td class="tblDireito"><input type="text" name="altura" id="altura"><br/></td>
+					</tr>
+					<tr>
+						<td class="tblEsquerdo"><label for=inscricao>Inscrição convênio</label></td>
+						<td class="tblDireito">
+							<select id="inscricao">
+								<option>Sistema Único de Saúde (SUS)</option>
+								<option>Outro</option>
+							</select><br/>
+						</td>
+					</tr>
+					<tr>
+						<td class="tblEsquerdo"><label for="numConvenio">Nº do Convênio</label></td>
+						<td class="tblDireito"><input type="text" name="numConvenio" id="numConvenio"></td>
+					</tr>
+				</table>	
+				</fieldset>
+				<fieldset><legend>Queixas do paciente</legend>
+					<label for="dores"></label><select id="dores">
+						<option>Dores...</option>
+						<option>Na cabeça</option>
+						<option>No corpo</option>
+						<option>Membro inferior esquerdo</option>
+						<option>Membro inferior direito</option>
+						<option>Membro superior esquerdo</option>
+						<option>Membro superior direito</option>
+						<option>Não se aplica</option>
+					</select>
+					<label for="dores"></label><select id="dores">
+						<option>Náuseas</option>
+						<option>Tontura</option>
+						<option>Vista embaçada</option>
+						<option>Não se aplica</option>
+					</select>
+					<label for="febre"></label><select id="febre">
+						<option>Febres...</option>
+						<option>Febre constante</option>
+						<option>Febre alta</option>
+						<option>Febre alta constante</option>
+						<option>Não se aplica</option>
+					</select>
+					<label for="diarreia"></label><select id="diarreia">
+						<option>Diarreias...</option>
+						<option>Diarreia persistente</option>
+						<option>Diarreia com hemorragia</option>
+						<option>Já com desidratação</option>
+						<option>Não se aplica</option>
+					</select>
+					<label for="vomito"></label><select id="vomito">
+						<option>Vômitos</option>
+						<option>Constante</option>
+						<option>Moderado</option>
+						<option>Não se aplica</option>
+					</select>
+					<label for="feridas"></label><select id="feridas">
+						<option>Feridas...</option>
+						<option>Escaras</option>
+						<option>Abertas</option>
+						<option>Internas</option>
+						<option>Decorrente de cirurgia</option>
+						<option>Acidental</option>
+						<option>Necrose</option>
+						<option>Hemorrágica</option>
+						<option>Não se aplica</option>
+					</select>
+				</fieldset>
+				<fieldset><legend>Prescrição de medicamentos</legend>
+					<select>
+						<option>Ácido acetilsalicílico 100mg</option>
+						<option>Dipirona sódica monoidratada 500mg/ml 2ml</option>
+					</select>
+					
+					<label for="Qtd">Quantidade </label><input type="number" name="Qtd" id="Qtd" size="10">
+					<select>
+						<option>Apresentação</option>
+						<option>Ampola(s)</option>
+						<option>Comprimido(s)</option>
+						<option>Gotas</option>
+						<option>Uso tópico</option>
+					</select>
+					<select>
+						<option>De 1  em 1  hora</option>
+						<option>De 2  em 2  horas</option>
+						<option>De 3  em 3  horas</option>
+						<option>De 4  em 4  horas</option>
+						<option>De 5  em 5  horas</option>
+						<option>De 6  em 6  horas</option>
+						<option>De 7  em 7  horas</option>
+						<option>De 8  em 8  horas</option>
+						<option>De 9  em 9  horas</option>
+						<option>De 10 em 10 horas</option>
+						<option>De 11 em 11 horas</option>
+						<option>De 12 em 12 horas</option>
+						<option>De 13 em 13 horas</option>
+						<option>De 14 em 14 horas</option>
+						<option>De 15 em 15 horas</option>
+						<option>De 16 em 16 horas</option>
+						<option>De 17 em 17 horas</option>
+						<option>De 18 em 18 horas</option>
+						<option>De 19 em 19 horas</option>
+						<option>De 20 em 20 horas</option>
+						<option>De 21 em 21 horas</option>
+						<option>De 22 em 22 horas</option>
+						<option>De 23 em 23 horas</option>
+						<option>De 24 em 24 horas</option>
+						<option>Outra posologia</option>
+					</select>
+					<label for="antBio"><strong>Anti-microbiano</strong> <input type="checkbox" name="antBio" id="antBio"></label>
+					<fieldset><legend>Observações sobre o paciente</legend>	
+						<textarea cols="150" rows="10" id="textarea">
+							
+						</textarea>
+					</fieldset>
+				</fieldset>
+				<input type="submit" name="btnSubmit" class="btn" value="Salvar">
+			</form>
+		</div>
+	</body>
+	<footer>
+		
+	</footer>
+</body>
+</html>
